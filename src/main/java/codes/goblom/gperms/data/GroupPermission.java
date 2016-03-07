@@ -9,6 +9,7 @@ package codes.goblom.gperms.data;
  *
  * @author Goblom
  */
+// TODO: implement
 public interface GroupPermission {
     
     String getNode();

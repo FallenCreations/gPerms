@@ -8,9 +8,10 @@ package codes.goblom.gperms.data;
 import org.bukkit.OfflinePlayer;
 
 /**
- *
+ * 
  * @author Goblom
  */
+// TODO: implement
 public interface Group {
     
     String getName();

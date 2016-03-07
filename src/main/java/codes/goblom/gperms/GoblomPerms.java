@@ -59,7 +59,7 @@ public class GoblomPerms extends JavaPlugin {
         
         Executor exe = new Executor("[gPerms]"); //Color later
                  exe.addListener(new GroupCommands(this));
-                 exe.addListener(new PlayerCommands());
+                 exe.addListener(new PlayerCommands(this));
                  
         PluginCommand gperms = getCommand("gperms");
                       gperms.setExecutor(exe);
