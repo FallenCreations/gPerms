@@ -33,7 +33,7 @@ public class GroupPermissionModel {
     @Setter
     private String forGroup;
     
-    @Column
+    @Column ( name = "_value" )
     @Getter
     @Setter
     private boolean value;

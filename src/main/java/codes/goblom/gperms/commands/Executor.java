@@ -116,7 +116,7 @@ public class Executor implements CommandExecutor {
         return true;
     }
     
-    private void sendMessage(CommandSender sender, String message) {
+    public void sendMessage(CommandSender sender, String message) {
         sender.sendMessage(color(prefix + " " + message));
     }
     
